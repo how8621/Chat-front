@@ -1,0 +1,12 @@
+<div class="d-flex justify-content-center">
+    <div>
+        <label matLabel>{{username}}님 어서오세요!</label>
+        <textarea matInput class="chat-log pre-wrap" readonly>
+            {{chatLog}}
+        </textarea>
+        <mat-form-field>
+            <input id="inputMessage" matInput [(ngModel)]="message" (keyup.enter)="messageSend()">
+        </mat-form-field>
+        <button mat-raised-button color="primary" (click)="messageSend()">입력</button>
+    </div>
+</div>

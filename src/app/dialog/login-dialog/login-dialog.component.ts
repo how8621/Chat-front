@@ -1,7 +1,5 @@
 import { Component, OnInit, Inject } from '@angular/core';
-import { MatDialog, MAT_DIALOG_DATA } from '@angular/material/dialog';
-import { MatButton } from '@angular/material/button';
-import { MatInput } from '@angular/material/input';
+import { MAT_DIALOG_DATA } from '@angular/material/dialog';
 
 @Component({
     selector: 'app-login-dialog',
